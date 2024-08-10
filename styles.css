@@ -1,0 +1,274 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif; 
+    background-color: #392361; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px; /* Maior espaço interno */
+    border-radius: 12px; /* Bordas mais arredondadas */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais suave e pronunciada */
+    width: 100%;
+    max-width: 750px; /* Largura máxima aumentada */
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff34d; /* Cor do cabeçalho mais tecnológica */
+    padding: 10px 20px; /* Maior espaço interno */
+    border-radius: 12px 12px 0 0; /* Bordas arredondadas no topo */
+}
+
+.header img {
+    max-width: 120px; /* Tamanho máximo ajustado */
+    height: auto;
+}
+
+.header h1 {
+    font-size: 30px; /* Tamanho da fonte aumentado */
+    color: #392361; /* Cor do texto mais clara */
+    margin: 0;
+    font-weight: 500; /* Peso da fonte ajustado */
+}
+
+.site-header {
+    background-color: white;
+    padding: 10PX 20PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 50px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o h1 e a imagem */
+}
+
+.imteste {
+    max-width: 120px; /* Tamanho máximo ajustado */
+    height: auto;
+
+    position: relative; /* Removido o posicionamento absoluto */
+    margin-left: 10px; /* Espaçamento entre o h1 e a imagem */
+}
+
+
+
+/* Estilo básico para o menu de navegação */
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333; /* Cor do texto dos links */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo específico para o botão de LOGIN */
+.login-button {
+    background-color: rgb(219, 219, 213); /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do botão */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave */
+}
+
+/* Estilo para o botão LOGIN quando o mouse passa sobre ele */
+.login-button:hover {
+    background-color:#fff34d ; /* Cor de fundo ao passar o mouse */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada ao passar o mouse */
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #392361;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    
+}
+
+nav ul li a:hover {
+    color:#4c2d84;
+}
+
+
+.caixa {
+    background-color: white;
+    padding: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    max-width: 750px; 
+    box-sizing: border-box;
+    margin: auto; /* Centraliza a caixa horizontalmente */
+}
+
+.question {
+    margin-bottom: 25px; /* Espaçamento aumentado entre perguntas */
+}
+
+.question h2 {
+    font-size: 20px; /* Tamanho da fonte aumentado */
+    margin-bottom: 13px; /* Espaçamento aumentado abaixo do título */
+    color: #333;
+    font-weight: 500; /* Peso da fonte ajustado */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Espaçamento ajustado */
+    font-size: 18px; /* Tamanho da fonte aumentado */
+    color: #666; /* Cor do texto mais suave */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 14px; /* Maior espaço interno */
+    background-color: #392361; /* Cor de fundo mais tecnológica */
+    color: #ffffff; /* Cor do texto clara */
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 18px; /* Tamanho da fonte aumentado */
+    font-weight: 600; /* Peso da fonte ajustado */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave */
+}
+
+button:hover {
+    background-color: #392361; /* Cor de fundo mais escura ao passar o mouse */
+    transform: scale(1.02); /* Efeito de aumento ao passar o mouse */
+}
+
+#result {
+    margin-top: 25px; /* Espaçamento aumentado acima do resultado */
+    font-size: 15px; /* Tamanho da fonte aumentado */
+    text-align: center;
+    color: #333;
+    font-weight: 300; /* Peso da fonte ajustado */
+}
+
+/* Estilo para a página com ID "home" */
+/* Estilo para a página com ID "home" */
+#home {
+    background-color: white;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif; 
+    background-color: #392361; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajustes na imagem principal */
+.fotoprincipal {
+    max-width: 98%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços em branco abaixo da imagem */
+    margin: 20px auto; /* Centraliza a imagem e adiciona espaço ao redor */
+    border-radius: 8px; /* Adiciona cantos arredondados à imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para destacar a imagem */
+}
+
+/* Centralização do conteúdo principal */
+.conteudo-principal {
+    text-align: center; /* Centraliza o texto e a imagem */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+}
+
+
+
+
+/* Corrigido o nome da classe para .sobref */
+.sobref {
+    max-width: 90%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços em branco abaixo da imagem */
+    margin: 10px auto; /* Centraliza a imagem e adiciona espaço ao redor */
+    border-radius: 8px; /* Adiciona cantos arredondados à imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para destacar a imagem */
+}
+
+/* Container das imagens para alinhamento e espaçamento */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espaço entre as imagens */
+    padding: 20px; /* Espaçamento interno ao redor das imagens */
+}
+
+
+#plataforma{
+    background-color: white;
+}
+
+
+
+
+/* Certifique-se de que o rodapé fica fixo na parte inferior */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    margin-top: auto; /* Empurra o rodapé para baixo */
+}
+
+/* Estilo para o rodapé */
+.site-footer {
+    background-color: #e77ab2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
