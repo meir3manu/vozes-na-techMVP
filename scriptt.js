@@ -76,19 +76,6 @@ const questions = [
             interactionType: 'click'
         },
         {
-            question: 'Você está liderando uma equipe em um projeto importante. Como coordenaria a equipe e garantiria que todos estejam alinhados e contribuindo para o sucesso do projeto?',
-            answers: [
-                { answer: 'Realizaria reuniões regulares para compartilhar atualizações e resolver problemas em equipe, incentivando a comunicação aberta.', letter: 'a' },
-                { answer: 'Estabeleceria um sistema de recompensas para incentivar a produtividade e a inovação, reconhecendo as contribuições individuais.', letter: 'b' },
-                { answer: 'Utilizaria uma ferramenta de gestão de projetos para definir tarefas, prazos e acompanhar o progresso.', letter: 'c' },
-                { answer: 'Criaria um dashboard para monitorar o desempenho da equipe, identificando áreas de melhoria e ajustando estratégias conforme necessário.', letter: 'd' },
-                { answer: 'Desenvolveria uma plataforma colaborativa onde todos podem compartilhar ideias, arquivos e feedbacks em tempo real.', letter: 'e' },
-                { answer: 'Produziria materiais visuais e gráficos para ilustrar o progresso do projeto e motivar a equipe.', letter: 'f' },
-                { answer: 'Utilizaria um sistema de inteligência artificial para prever e alertar sobre possíveis atrasos, sugerindo ajustes para manter o cronograma em dia.', letter: 'g' }
-            ],
-            interactionType: 'click'
-        },
-        {
             question: 'Como arquiteto, qual recurso tecnológico implementaria para garantir segurança e eficiência no projeto de uma casa moderna?',
             answers: [
                 { answer: 'Avaliação dos pontos de vulnerabilidade na estrutura e implementação de medidas de segurança como sistemas de alarme e câmeras.', letter: 'a' },
